@@ -7,7 +7,7 @@ bot.command('start', (ctx) => {
   ctx.reply('Welcome to the Telegram Web App Bot!', {
     reply_markup: {
       keyboard: [
-        [{ text: 'Open Web App', web_app: { url: 'https://hamster-kombat-clone.netlify.app/' } }]
+        [{ text: 'Open Web App', web_app: { url: 'frolicking-cannoli-cfc2c1.netlify.app' } }]
       ],
       resize_keyboard: true,
       one_time_keyboard: false
