@@ -3,13 +3,12 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  // Replace with your Firebase configuration
-  apiKey: .env.YOUR_API_KEY,
-  authDomain: .env.YOUR_AUTH_DOMAIN,
-  projectId: .env.YOUR_PROJECT_ID,
-  storageBucket: .env.YOUR_STORAGE_BUCKET,
-  messagingSenderId: .env.YOUR_MESSAGING_SENDER_ID,
-  appId: env.YOUR_APP_ID
+  apiKey: "AIzaSyAS0xNgdRCHgAS-c1KAkGf_G-RuLHCJV4I",
+  authDomain: "ecotaptestapp.firebaseapp.com",
+  projectId: "ecotaptestapp",
+  storageBucket: "ecotaptestapp.firebasestorage.app",
+  messagingSenderId: "185544000979",
+  appId: "1:185544000979:web:c6804dd382379af530db26"
 };
 
 const app = initializeApp(firebaseConfig);
